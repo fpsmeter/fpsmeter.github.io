@@ -18,14 +18,22 @@
         <![endif]-->
 
         <link href="css/style.css" rel="stylesheet">
+	<link rel="icon" href="favicon.png">
+	<link rel="shortcut icon" href="favicon.png">
     </head>
     <body>
         <div class="container">
             <div class="row logo-row">
-                <div class="col-xs-12 col-sm-2 col-sm-offset-3 logo-wrap"><img src="images/fps.png" class="img-responsive img-logo"/></div>
+                <div class="col-xs-12 col-sm-2 col-sm-offset-3 logo-wrap">
+                    <img src="images/fps.png" class="img-responsive img-logo"/>
+                </div>
                 <div class="col-xs-12 col-sm-5">
                     <h1>FPS Meter</h1>
-                    <p>FPS Meter for Android is a useful tool that displays FPS (Frames per second) on the screen overlay. This allows you to benchmark your real device's performance in real-time.</p>
+                    <p class="text-justify">FPS Meter for Android is a useful tool that displays FPS (Frames per second) on the screen overlay. This allows you to benchmark your real device's performance in real-time.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.ftpie.fpsmeter">
+                      <img alt="Get it on Google Play"
+                           src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
+                    </a>
                 </div>
             </div>
             <div class="row downloads-row">
@@ -52,17 +60,17 @@
                             <h3>Step 3</h3>
                             <p>Enable USB Debugging on your phone.</p>
                             <p>To do this navigate to Settings and tap Developer options on your device. Then check "USB debugging" (or "Android debugging") option.</p>
-                            <img src="images/deviceusbdebugging.png" />
+                            <img src="images/deviceusbdebugging.png" class="img-responsive"/>
                             <div class="alert alert-info">
                                 On some Android devices Developer options are hidden by default. To enable them, navigate to Settings > About phone and tap 7 times on "Build number". After the 7th tap you will see a notification "You are now a developer!".
                             </div>
                             <h3>Step 4</h3>
                             <p>Launch FPS Meter Desktop App</p>
                             <p>You may receive a pop-up "Allow USB debugging?" on your device. Check "Always allow from this computer" and tap "Ok".</p>
-                            <img src="images/deviceusbpopup.png" />
+                            <img src="images/deviceusbpopup.png" class="img-responsive"/>
                             <h3>Step 5</h3>
                             <p>Select your device from the list and click "Start Service"</p>
-                            <img src="images/pcapp.png" />
+                            <img src="images/pcapp.png" class="img-responsive"/>
                             <h3>Step 6</h3>
                             <p>Launch FPS Meter on your device and enjoy.</p>
                         </div>
@@ -75,18 +83,18 @@
                             </div>
                             <h3>Step 2</h3>
                             <p>Enable USB Debugging on your phone.</p>
-                            <p>To do this launch the Settings on your Android devices and tap Developer options. Then toggle the USB Debugging option.</p>
-                            <img src="images/deviceusbdebugging.png" />
+                            <p>To do this navigate to Settings and tap Developer options on your device. Then check "USB debugging" (or "Android debugging") option.</p>
+                            <img src="images/deviceusbdebugging.png" class="img-responsive"/>
                             <div class="alert alert-info">
                                 On some Android devices Developer options are hidden by default. To enable them, navigate to Settings > About phone and tap 7 times on "Build number". After the 7th tap you will see a notification "You are now a developer!".
                             </div>
                             <h3>Step 3</h3>
                             <p>Launch FPS Meter Desktop App</p>
                             <p>You may receive a pop-up "Allow USB debugging?" on your device. Check "Always allow from this computer" and tap "Ok".</p>
-                            <img src="images/deviceusbpopup.png" />
+                            <img src="images/deviceusbpopup.png" class="img-responsive"/>
                             <h3>Step 4</h3>
                             <p>Select your device from the list and click "Start Service"</p>
-                            <img src="images/pcapp.png" />
+                            <img src="images/pcapp.png" class="img-responsive"/>
                             <h3>Step 5</h3>
                             <p>Launch FPS Meter on your device and enjoy.</p>
                         </div>
@@ -99,18 +107,18 @@
                             </div>
                             <h3>Step 2</h3>
                             <p>Enable USB Debugging on your phone.</p>
-                            <p>To do this launch the Settings on your Android devices and tap Developer options. Then toggle the USB Debugging option.</p>
-                            <img src="images/deviceusbdebugging.png" />
+                            <p>To do this navigate to Settings and tap Developer options on your device. Then check "USB debugging" (or "Android debugging") option.</p>
+                            <img src="images/deviceusbdebugging.png" class="img-responsive"/>
                             <div class="alert alert-info">
                                 On some Android devices Developer options are hidden by default. To enable them, navigate to Settings > About phone and tap 7 times on "Build number". After the 7th tap you will see a notification "You are now a developer!".
                             </div>
                             <h3>Step 3</h3>
                             <p>Launch FPS Meter Desktop App</p>
                             <p>You may receive a pop-up "Allow USB debugging?" on your device. Check "Always allow from this computer" and tap "Ok".</p>
-                            <img src="images/deviceusbpopup.png" />
+                            <img src="images/deviceusbpopup.png" class="img-responsive"/>
                             <h3>Step 4</h3>
                             <p>Select your device from the list and click "Start Service"</p>
-                            <img src="images/pcapp.png" />
+                            <img src="images/pcapp.png" class="img-responsive"/>
                             <h3>Step 5</h3>
                             <p>Launch FPS Meter on your device and enjoy.</p>
                         </div>
