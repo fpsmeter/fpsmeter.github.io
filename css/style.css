@@ -1,0 +1,30 @@
+.logo-row{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.img-logo{
+    margin: 20% auto 0;
+}
+
+@media (max-width: 768px) {
+    .img-logo{
+        margin: auto;
+        width: 200px;
+    }
+}
+@media (min-width: 768px) {
+    .logo-row{
+        text-align: left;
+    }
+}
+.logo-wrap{
+}
+
+.downloads-wrap{
+    max-width: 480px;
+    margin: 10px auto;
+}
+.alert{
+    margin-top: 10px;
+}

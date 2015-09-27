@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>FPS Meter for Android</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row logo-row">
+                <div class="col-xs-12 col-sm-2 col-sm-offset-3 logo-wrap"><img src="images/fps.png" class="img-responsive img-logo"/></div>
+                <div class="col-xs-12 col-sm-5">
+                    <h1>FPS Meter</h1>
+                    <p>FPS Meter for Android is a useful tool that displays FPS (Frames per second) on the screen overlay. This allows you to benchmark your real device's performance in real-time.</p>
+                </div>
+            </div>
+            <div class="row downloads-row">
+                <div class="col-xs-12 col-sm-offset-3 col-sm-7">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#windows" aria-controls="windows" role="tab" data-toggle="tab">Windows</a></li>
+                        <li role="presentation"><a href="#linux" aria-controls="linux" role="tab" data-toggle="tab">Linux</a></li>
+                        <li role="presentation"><a href="#macos" aria-controls="macos" role="tab" data-toggle="tab">MacOS</a></li>
+                    </ul>
+                    <div class="tab-content tab-variants">
+                        <div role="tabpanel" class="tab-pane active" id="windows">
+                            <h3>Step 1</h3>
+                            <div class="alert alert-info">
+                                You can skip this step, if you have a working ADB installation.
+                            </div>
+                            <p>Download and install Universal USB Driver.</p>
+                            <a href="http://adbdriver.com/downloads/" type="button" class="btn btn-primary btn-large">Download USB driver</a>
+                            <h3>Step 2</h3>
+                            <p>Download FPS Meter Desktop App.</p>
+                            <button type="button" class="btn btn-primary btn-large">Download FPS Meter</button>
+                            <div class="alert alert-warning">
+                                This application requires Java Runtime 1.7. If you dont have Java installed, please <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">download</a> and install it.
+                            </div>
+                            <h3>Step 3</h3>
+                            <p>Enable USB Debugging on your phone.</p>
+                            <p>To do this navigate to Settings and tap Developer options on your device. Then check "USB debugging" (or "Android debugging") option.</p>
+                            <img src="images/deviceusbdebugging.png" />
+                            <div class="alert alert-info">
+                                On some Android devices Developer options are hidden by default. To enable them, navigate to Settings > About phone and tap 7 times on "Build number". After the 7th tap you will see a notification "You are now a developer!".
+                            </div>
+                            <h3>Step 4</h3>
+                            <p>Launch FPS Meter Desktop App</p>
+                            <p>You may receive a pop-up "Allow USB debugging?" on your device. Check "Always allow from this computer" and tap "Ok".</p>
+                            <img src="images/deviceusbpopup.png" />
+                            <h3>Step 5</h3>
+                            <p>Select your device from the list and click "Start Service"</p>
+                            <img src="images/pcapp.png" />
+                            <h3>Step 6</h3>
+                            <p>Launch FPS Meter on your device and enjoy.</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="linux">
+                            <h3>Step 1</h3>
+                            <p>Download FPS Meter Desktop App.</p>
+                            <button type="button" class="btn btn-primary btn-large">Download FPS Meter</button>
+                            <div class="alert alert-warning">
+                                This application requires Java Runtime 1.7. If you dont have Java installed, please <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">download</a> and install it.
+                            </div>
+                            <h3>Step 2</h3>
+                            <p>Enable USB Debugging on your phone.</p>
+                            <p>To do this launch the Settings on your Android devices and tap Developer options. Then toggle the USB Debugging option.</p>
+                            <img src="images/deviceusbdebugging.png" />
+                            <div class="alert alert-info">
+                                On some Android devices Developer options are hidden by default. To enable them, navigate to Settings > About phone and tap 7 times on "Build number". After the 7th tap you will see a notification "You are now a developer!".
+                            </div>
+                            <h3>Step 3</h3>
+                            <p>Launch FPS Meter Desktop App</p>
+                            <p>You may receive a pop-up "Allow USB debugging?" on your device. Check "Always allow from this computer" and tap "Ok".</p>
+                            <img src="images/deviceusbpopup.png" />
+                            <h3>Step 4</h3>
+                            <p>Select your device from the list and click "Start Service"</p>
+                            <img src="images/pcapp.png" />
+                            <h3>Step 5</h3>
+                            <p>Launch FPS Meter on your device and enjoy.</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="macos">
+                            <h3>Step 1</h3>
+                            <p>Download FPS Meter Desktop App.</p>
+                            <button type="button" class="btn btn-primary btn-large">Download FPS Meter</button>
+                            <div class="alert alert-warning">
+                                This application requires Java Runtime 1.7. If you dont have Java installed, please <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">download</a> and install it.
+                            </div>
+                            <h3>Step 2</h3>
+                            <p>Enable USB Debugging on your phone.</p>
+                            <p>To do this launch the Settings on your Android devices and tap Developer options. Then toggle the USB Debugging option.</p>
+                            <img src="images/deviceusbdebugging.png" />
+                            <div class="alert alert-info">
+                                On some Android devices Developer options are hidden by default. To enable them, navigate to Settings > About phone and tap 7 times on "Build number". After the 7th tap you will see a notification "You are now a developer!".
+                            </div>
+                            <h3>Step 3</h3>
+                            <p>Launch FPS Meter Desktop App</p>
+                            <p>You may receive a pop-up "Allow USB debugging?" on your device. Check "Always allow from this computer" and tap "Ok".</p>
+                            <img src="images/deviceusbpopup.png" />
+                            <h3>Step 4</h3>
+                            <p>Select your device from the list and click "Start Service"</p>
+                            <img src="images/pcapp.png" />
+                            <h3>Step 5</h3>
+                            <p>Launch FPS Meter on your device and enjoy.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
